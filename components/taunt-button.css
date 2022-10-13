@@ -1,2 +1,25 @@
-.taunt-btn {
+.btn {
+  width: 150px;
+  height: 150px;
+  border: none;
+  background: transparent;
+  padding: 20px;
+
+  /* debug */
+  border: 1px solid green;
+}
+
+.btn-content {
+  display: grid;
+  place-content: center;
+  height: 100%;
+
+  /* design */
+  border-radius: 50%;
+  border: 5px solid black;
+  background: deeppink;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
 }

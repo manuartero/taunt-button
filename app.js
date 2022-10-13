@@ -1,4 +1,4 @@
 import TauntButton from "./components/taunt-button";
 
-const btn = TauntButton();
-document.getElementById("root").appendChild(btn);
+const tauntButton = TauntButton();
+document.getElementById("root").appendChild(tauntButton.el);
