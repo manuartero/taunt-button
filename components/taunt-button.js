@@ -69,6 +69,7 @@ function TauntButton() {
     onClose: () => {
       btnContent.textContent = "Click :)";
       button.classList.add("clickable");
+      button.disabled = false;
       button.addEventListener("click", onClick);
     },
   });
@@ -98,7 +99,9 @@ function TauntButton() {
   };
 
   const onClick = (ev) => {
-    console.log("aasd");
+    console.log("click!!");
+    btnContent.textContent = "Weee";
+    button.classList.add("party");
   };
 
   const frustration = frustrationHandler({

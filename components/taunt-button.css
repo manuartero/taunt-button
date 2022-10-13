@@ -1,5 +1,23 @@
 @import "./terms-and-conditions.css";
 
+@keyframes circle-around {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -30px) rotate(5deg);
+  }
+  50% {
+    transform: translate(0, -10px);
+  }
+  75% {
+    transform: translate(0, -30px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 .btn {
   width: 150px;
   height: 150px;
@@ -45,5 +63,10 @@
 
 .clickable {
   cursor: pointer;
-  
+}
+
+.party {
+  animation: circle-around 1000ms ease-out;
+  /* we can read 'weeee!' */
+  animation-delay: 200ms;
 }
