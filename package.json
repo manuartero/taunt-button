@@ -1,0 +1,20 @@
+{
+  "name": "taunt-button",
+  "version": "1.0.0",
+  "description": "Light experiment of a taunt button",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": {
+    "name": "Manu Artero Anguita",
+    "email": "manutero.developer@gmail.com"
+  },
+  "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
