@@ -23,3 +23,18 @@
   font-weight: 700;
   line-height: 1;
 }
+
+.pointer-blocker {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 30%;
+  border: 2px solid black;
+  transition: opacity 0.2s ease-in;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
